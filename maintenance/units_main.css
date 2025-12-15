@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 * {
@@ -168,8 +169,8 @@ body::after {
 
 /* Main Content */
 .main-content {
-    margin-left: 0;
-    padding: 100px 40px 40px;
+    margin-left: 30px;
+    padding: 30px 40px 40px;
     min-height: 100vh;
 }
 
@@ -178,7 +179,7 @@ body::after {
     max-width: 1600px;
     margin: 0 auto 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
@@ -198,15 +199,16 @@ body::after {
 }
 
 .back-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+    padding: 12px 24px;
+    background: white;
     color: #64748b;
     text-decoration: none;
-    font-size: 14px;
+    border-radius: 12px;
     font-weight: 600;
-    margin-bottom: 12px;
+    border: 1px solid #e2e8f0;
     transition: all 0.2s ease;
+    right: 40px;
+    position: absolute;
 }
 
 .back-link:hover {

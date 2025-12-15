@@ -21,6 +21,18 @@ body {
     z-index: 100;
 }
 
+.page-title h1{
+    margin-left: 580px;
+}
+
+.page-title p{
+    margin-left: 620px;
+}
+
+.top-bar{
+    margin-bottom: 40px;
+}
+
 .header-content {
     max-width: 1400px;
     margin: 0 auto;
